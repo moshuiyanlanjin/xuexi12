@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.xuexi1.zz.xuexi1.View.TitleLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.xuexi1.zz.xuexi1.View.TitleLayout>
+    <Button
+        android:id="@+id/xuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择"/>
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/colorAccent"/>
+</LinearLayout>
